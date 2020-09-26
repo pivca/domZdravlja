@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="DomZdravlja.exe" version="1.0.0.4" publicKeyToken="5a0f5ab48b3e7afd" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="logo.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="DomZdravlja" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="DomZdravlja.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DomZdravlja.exe" size="216536">
+      <assemblyIdentity name="DomZdravlja" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ZhNPpVRL20zt8+SygBBtuC/qdAHiTFtoEXYyS9jNcpk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="itextsharp.dll" size="4079616">
+      <assemblyIdentity name="itextsharp" version="5.5.13.1" publicKeyToken="8354AE6D2174DDCA" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>VUC+CCHYMD3JRf0r0cYggs26RiYOUniYX6CGYkLerdI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LiveCharts.dll" size="152064">
+      <assemblyIdentity name="LiveCharts" version="0.9.7.0" publicKeyToken="0BC1F845D1EBB8DF" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>n8+Jg3tg9pwcUB5M+k0oYIh6/QuPMlgDNn55Wk47yco=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LiveCharts.Wpf.dll" size="217600">
+      <assemblyIdentity name="LiveCharts.Wpf" version="0.9.7.0" publicKeyToken="0BC1F845D1EBB8DF" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>G9uxtcGlBlPlwmFh6bfAPtxRhyGm4Q6hgKhASdlnEGs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="DomZdravlja.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="logo.ico" size="169640">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>s5Eb1+y/ep+kvK8lYO2TLgfj9DYr2k3OlxUn2Jjrt+I=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-2S3AHT9\T460" issuerKeyHash="34777f0fd7f42cd2da016489bbac51bda9f9a0bc" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>lhf0gu4SiITxsNrKc6y2Ivt4jZ6G+qw3P81hWpxfrTA=</DigestValue></Reference></SignedInfo><SignatureValue>o+6W0+VRguZhuydiaBu1sr2QIVJDnIHeBaFYjcZRmN4nBMn/IQ4v1YnkQ4OExSR0pHJpKkhK9NAFWUq2KQXTHoFVtC2TLB1nxVxrO2mLLLDXQfkWLY5ZQXqqRgMkI/SsuqSqt8RypNXyHXXHjtvlKbgF3U/4jbS6pRJevt4cwn0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>pJwa8rbyXQeBVliRy9SYADyzZXIGTBzo3TXqdJGcM375sNoDmFpimC4IzJH+YJH64Goaze6NBhAeDlDlgQw6ZaWv4uFkTShvB4N1OngRW+3V+dFf42HHiSs1DS8cFTek3vmVnk92oaptxQJ+kTxl3GfuZHH60/hgzwu5NzjM+8k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="30ad5f9c5a61cd3f37acfa869e8d78fb22b6ac73cadab0f1848812ee82f41796" Description="" Url=""><as:assemblyIdentity name="DomZdravlja.exe" version="1.0.0.4" publicKeyToken="5a0f5ab48b3e7afd" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-2S3AHT9\T460</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>2hX1ynIWowpIYypPXi/3y2M1dn9vIru7B6BJZZetTsQ=</DigestValue></Reference></SignedInfo><SignatureValue>mEPJPx3X5WqBU2j4x7w0+EPjd5QXXhNddo57YS9jn8yyHu66//5ntZx77WaOVciF15yZiT2k+/ks1eNWHI3srDgfyof/eup4Ba8AnGBHCVrIbtt6AW1S3WGkBa1ZLCHgzWcpoyxzqGetK8elxEQNkVQCASnIMLGS/P4byGZgWgk=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>pJwa8rbyXQeBVliRy9SYADyzZXIGTBzo3TXqdJGcM375sNoDmFpimC4IzJH+YJH64Goaze6NBhAeDlDlgQw6ZaWv4uFkTShvB4N1OngRW+3V+dFf42HHiSs1DS8cFTek3vmVnk92oaptxQJ+kTxl3GfuZHH60/hgzwu5NzjM+8k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQe3ntAub+tLFKSHz8LjFz1jANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigARABFAFMASwBUAE8AUAAtADIAUwAzAEEASABUADkAXABUADQANgAwMB4XDTIwMDkwOTA5NTIxMVoXDTIxMDkwOTE1NTIxMVowMzExMC8GA1UEAx4oAEQARQBTAEsAVABPAFAALQAyAFMAMwBBAEgAVAA5AFwAVAA0ADYAMDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEApJwa8rbyXQeBVliRy9SYADyzZXIGTBzo3TXqdJGcM375sNoDmFpimC4IzJH+YJH64Goaze6NBhAeDlDlgQw6ZaWv4uFkTShvB4N1OngRW+3V+dFf42HHiSs1DS8cFTek3vmVnk92oaptxQJ+kTxl3GfuZHH60/hgzwu5NzjM+8kCAwEAATANBgkqhkiG9w0BAQsFAAOBgQA/LK8u0MuBi3gQSp7v93KAxx2G2LrUxeHc9aW7/mXxc7KZvSS+z7bs1xWTHI5JAmJ0wdFL6H+FOLEbbeuMEjcCs6VkyX71JjO9e1KFPf6ZEOvkbxgA8NSqdwSBVu2eyyAeBKU2OlHG5k+5zwZ1CkDTHIAKvG3mSOP/sVBaO5aB/A==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
